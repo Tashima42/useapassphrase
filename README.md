@@ -12,12 +12,12 @@ https://solucaut.com.br/pass
 
 O site precisa de muito trabalhao. Por favor contribua com qualquer uma das seguintes formas: .
 * Melhorando a lista de palavras utilizadas, que está contida no arquivo `js/wordlist.js`
-* Adicionando diferentes alternati (e.g. four-word-with-space).
+* Adicionando diferentes alternativas de senhas (e.g. four-word-with-space).
 
 # Rodando Localmente
 
-É necessário ter o grunt-cli (`npm install -g grunt-cli`), após isso você apenas
-roda `npm install` e depois `grunt`.
+É necessário ter o grunt-cli (`npm install -g grunt-cli`), após isso você
+roda `npm install` e `grunt`.
 Se você tem o Docker & Docker Compose instalados, teoricamente você pode
 apenas rodar `docker-compose up` para buildar o diretório /dist, que criará o arquivo
 index.html, que é inteiramente self-contained (i.e. não se comunica externamente)
