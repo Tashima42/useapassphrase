@@ -1,22 +1,24 @@
-## Why should I use a random passphrase?
+## Por que usar uma passphrase aleatória?
 
-Because humans are terrible at creating secure passwords. The [famous xkcd comic][1] got it right: humans have been trained to use <b>hard-to-remember</b> passwords that are <b>easy</b> for computers to guess.
+Porque humanos são péssimos criando senhas. A [famosa tirinha do xkcd][1] resume tudo: humanos são treinados pra usar senhas <b>difíceis-de-lembrar</b> que são <b>fáceis</b> para os computadores adivinharem. 
 
 [1]: http://xkcd.com/936/
 
-Try as we might, humans usually end up using one of a few predictable patterns when creating passwords. We base them on things we can remember, such as names, locations, dates or just common English words. Then, we add some spice with a capital letter, some numbers, or a symbol.
+Por mais que tentemos, humanos sempre acabam criando senhas com padrões previsíveis. Nós baseamos elas em coisas que conseguimos lembrar, como nomes, locais, datas, ou palvras comuns e adicionamos letras maiúsculas, números ou símbolos.
 
-Does your password fall into this group?
+A sua senha está nesse grupo?
 
-| Bad Password Patterns | Is It Memorable?  | Time To Crack  |
+| Padrões Ruins de Senhas | É Fácil De Lembrar  | Tempo Para Quebrar  |
 | ------------- |---------------| ------|
-| A common word (example: `december`)| Yes. | 18 milliseconds <small>(Seriously. Try it in the box at the top.)</small> |
-| An easily-typed spatial word (example: `qwerty` or `aaaaaaaa`)| Very much so. | 10 milliseconds |
+| Uma palavra comum (exemplo: `dezembro`)| Sim. | 18 milisegundos |
+| uma palavra fácil de digitar (exemplo: `qwerty` ou `aaaaaaaa`)| Muito. | 10 milisegundos |
 | The family dog (example: `rusty`) | Yep. | 27 milliseconds |
-| An important number, such as a date or zip code (example: `03261981`)| It's memorable to you, certainly. | 2.213 seconds |
-| A word with trivial letter→number substitutions (example: `S4nfr4n`)| Sort of memorable, but you may forget which letters are substituted for numbers.| 639 milliseconds|
+| Um número importante, como uma data ou CEP (exemplo: `84036910`)| Pra você é fácil. | 2.213 segundos |
+| Uma palavra com letras trocadas por números (exemplo: `S4nfr4n`)| Mais ou menos, você pode esquecer quais letras trocou por números.| 639 milisegundos|
 
 If your password resembles any of these examples, it is _instantly crackable._ Even a mix of these patterns, such as `[common word]+[number]` will be straightforward to crack.
+
+
 
 Compare those to a passphrase:
 
