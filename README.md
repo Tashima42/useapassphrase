@@ -1,23 +1,23 @@
-# Use A Passphrase (.com)
+# Use A Passphrase
 
-This site is intended to both generate simple passphrases as well as advocate
-for the use of random passphrases over human-generated passwords.
+Esse site tem como objetivo gerar passphrases simples e incentivar 
+o uso de passphrases aleatórias  em detrimento das senhas criadas por humanos.
 
-# How to Contribute
+# Versão Live
+A versão mais atualizada pode ser encontrada em http://tashima42.github.io/useapassphrase-ptbr
+porém, ela não possui conexão encripitada, então é recomendado utilizar
+https://solucaut.com.br/pass
 
-This site needs a lot of work. Please contribute to any of the following:
+# Como Contribuir
 
-* To improving the persuasiveness of the argument, which is all contained in
-  `passphrase_advocate.md`.
-* To the wordlist from which the passwords are generated, which is contained in `js/wordlist.js`
-* Add additional password possibilities (e.g. four-word-with-space).
+O site precisa de muito trabalhao. Por favor contribua com qualquer uma das seguintes formas: .
+* Melhorando a lista de palavras utilizadas, que está contida no arquivo `js/wordlist.js`
+* Adicionando diferentes alternati (e.g. four-word-with-space).
 
-# Running It Locally
+# Rodando Localmente
 
-It requires grunt-cli (`npm install -g grunt-cli`), after which you can just
-run `npm install` and then `grunt`.
-
-If you have Docker & Docker Compose installed, you should theoretically just be
-able to run `docker-compose up` to build the /dist directory, which will create
-the index.html file that is entirely self-contained (i.e. it makes no external
-calls).
+É necessário ter o grunt-cli (`npm install -g grunt-cli`), após isso você apenas
+roda `npm install` e depois `grunt`.
+Se você tem o Docker & Docker Compose instalados, teoricamente você pode
+apenas rodar `docker-compose up` para buildar o diretório /dist, que criará o arquivo
+index.html, que é inteiramente self-contained (i.e. não se comunica externamente)
