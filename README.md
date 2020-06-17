@@ -13,6 +13,7 @@ https://solucaut.com.br/pass
 O site precisa de muito trabalhao. Por favor contribua com qualquer uma das seguintes formas: .
 * Melhorando a lista de palavras utilizadas, que está contida no arquivo `js/wordlist.js`
 * Adicionando diferentes alternativas de senhas (e.g. four-word-with-space).
+* Traduzindo o argumento de persuasão para o uso de passphrases, que está contido em `passphrase_advocate.md`
 
 # Rodando Localmente
 
