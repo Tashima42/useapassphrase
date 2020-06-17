@@ -23,7 +23,7 @@ function generatePassword(numberOfWords) {
 }
 
 function setStyleFromWordNumber(passwordField, numberOfWords) {
-  var baseSize = '35';
+  var baseSize = '30';
   var newSize = baseSize * (4/numberOfWords);
   passwordField.setAttribute('style', 'font-size: ' + newSize + 'px;');
 }
