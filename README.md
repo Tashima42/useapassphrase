@@ -4,9 +4,8 @@ Esse site tem como objetivo gerar passphrases simples e incentivar
 o uso de passphrases aleatórias  em detrimento das senhas criadas por humanos.
 
 # Versão Live
-A versão mais atualizada pode ser encontrada em http://tashima42.github.io/useapassphrase-ptbr
-porém, ela não possui conexão encripitada, então é recomendado utilizar
-https://solucaut.com.br/pass
+
+Uma demonstração live pode ser encontrada em https://tashima42.github.io/useapassphrase-ptbr
 
 # Como Contribuir
 
