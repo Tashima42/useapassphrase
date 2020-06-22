@@ -5,7 +5,7 @@ o uso de passphrases aleatórias  em detrimento das senhas criadas por humanos.
 
 # Versão Live
 
-Uma demonstração live pode ser encontrada em https://tashima42.github.io/useapassphrase-ptbr
+Uma demonstração live pode ser encontrada em https://pass.solucaut.com.br/
 
 # Como Contribuir
 
