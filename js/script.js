@@ -24,7 +24,7 @@ function generatePassword(numberOfWords) {
 
 function setStyleFromWordNumber(passwordField, numberOfWords) {
   var baseSize = '30';
-  var newSize = baseSize * (4/numberOfWords);
+  var newSize = baseSize * (3/numberOfWords);
   passwordField.setAttribute('style', 'font-size: ' + newSize + 'px;');
 }
 
@@ -33,7 +33,7 @@ var passwordField = document.getElementById('passphrase');
 var button = document.querySelector('.btn-generate');
 
 // Initially run it upon load
-passwordField.setAttribute('value', generatePassword(4));
+passwordField.setAttribute('value', generatePassword(3));
 
 // Listen for a button click
 button.addEventListener('click', function() {
