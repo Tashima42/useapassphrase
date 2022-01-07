@@ -10,15 +10,16 @@
 <body>
 <div class="container">
   <div class="header">
-    <img src="img/solucaut.png" width="130" height="130" alt="Logo da Solucaut" />
     <h1 class="title">Gerador de <span>Passphrase</span></h1>
   </div>
   <input id="passphrase" type="text" value="Loading..." onmouseover="this.select()"/>
   <div class="passphrase-options">
     <select id="passphrase_select">
-      <option value="4" selected>Passphrase de quatro palavras</option>
+      <option value="2">Passphrase de duas palavras</option>
+      <option value="3" selected>Passphrase de três palavras</option>
+      <option value="4">Passphrase de quatro palavras</option>
       <option value="5">Passphrase de cinco palavras</option>
-      <option value="12">Passphrase de doze palavras</option>
+      <option value="6">Passphrase de seis palavras</option>
     </select>
     <button class="btn-generate">Gerar uma Passphrase</button>
   </div>
